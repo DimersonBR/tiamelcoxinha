@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet Francano</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Cabeçalho do Nosso Site -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card"
+        style="letter-spacing: 4px;"> 
+            <a href="#home" class="w3-bar-item w3-button">Buffet Francano</a>
+            <!-- Botões do Menu -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Imagem e Nome do Site -->
+    <header id="home">
+        <img class="w3-image" src="/img/hamburger.jpg" alt="Hambuger Francano" width="1600" height="800">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w2-xx-large">Buffet Francano</h1>
+        </div>
+    </header>
+
+    <div class="w3-content" style="max-width:1100px">
+
+        <!-- Sessão Sobre -->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="/img/mesa.jpg" class="w3-round w3-image w3-opacity-min"
+                alt="Uma mesa com pratos de comida vista de cima" width="600" height="750">
+            </div>
+            <div class="w3-col m6 w3-padding-large" style="text-align: justify;">
+                <h1 class="w3-center">Sobre o Buffet</h1>
+                <h5 class="w3-center">Tradição desde 1998</h5>
+                <p class="w3-large"><span class="w3-tag w3-light-gray">O Buffet mais tradicional de Franca!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quod vitae quo placeat nam minus distinctio suscipit inventore, perspiciatis ipsum deserunt quidem, ad id, dolorem quas odit corporis harum possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A rem iste, unde quasi neque ex minus iusto quibusdam, reprehenderit dignissimos dolore. Molestias doloremque mollitia vero numquam explicabo dicta. Labore, exercitationem?</p>
+                <p class="w3-large" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod sunt tempora labore. Culpa itaque vel magnam dignissimos aspernatur illum, assumenda fugit quos nostrum possimus distinctio. Soluta voluptatum non velit.</p>
+            </div>
+        </div>
+
+        <!-- Sessão do Menu -->
+        <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Nosso Menu</h1><br>
+                
+                <h4 class="w3-tag w3-light-gray">Cesta de Pães</h4>
+                <p class="w3-text-gray">
+                    Cereais Naturais de Aveia torrada com mel, passas, amêndoas e tâmaras | $7.00
+                </p><br>
+
+                <h4 class="w3-tag w3-light-gray">Waffle Belga</h4>
+                <p class="w3-text-gray">
+                    Waffle sabor baunilha com farinha de malte | $7.50
+                </p><br>
+
+                <h4 class="w3-tag w3-light-gray">Ovos Mexidos</h4>
+                <p class="w3-text-gray">
+                    Ovos mexidos com pimenta vermelha e alho assado com cebolinha | $7.50
+                </p><br>
+
+                <h4 class="w3-tag w3-light-gray">Cesta de Pães</h4>
+                <p class="w3-text-gray">
+                    Com calda, manteiga e muitos frutos silvetres | $8.50
+                </p><br>
+            </div>
+            <div class="w3-col l6 w3-padding-large">
+                <img src="/img/mesa2.jpg" class="w3-round w3-image w3-opacity-min" alt="menu" style="width: 100%;">
+            </div>
+        </div>
+
+        <!-- Sessão de Contato -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h1>Contato</h1><br>
+            <p>Oferecemos serviço completo de buffet para qualquer evento, grande ou pequeno. Entendemos sua necessidade e iremos atender a comida para satisfazer os maiores critérios de todos, tanto de aparência quanto de sabor. Não hesite em nos contactar.</p>
+            
+            <p class="w3-text-blue-gray w3-large">Endereço: Av. Wilson Sábio de Mello, 1242 - São Joaquim, Franca - SP</p>
+
+            <p>Você também pode nos contatar pelo telefone <strong>(16) 3333-7777</strong> ou e-mail <strong>buffet@francano.com.br</strong>, ou pode nos enviar um mensagem aqui:</p>
+
+            <form action="" target="_blank">
+                <!-- Pergunta nome -->
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Seu Nome" name="nome" required>
+                </p>
+                
+                <!-- Pergunta qtd. pessoas -->
+                <p>
+                    <input class="w3-input w3-padding-16" type="number" placeholder="Quantidade de pessoas" name="pessoas" required>
+                </p>
+
+                <!-- Pergunta data e hora -->
+                <p>
+                    <input class="w3-input w3-padding-16" type="datetime-local" placeholder="Dia e Hora" name="datetime" value="2023-12-01T20:00" required>
+                </p>
+
+                <!-- Pergunta mensagem -->
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Mensagem ou pedidos especiais" name="mensagem" required>
+                </p>
+
+                <p>
+                    <button class="w3-button w3-light-gray w3-section" type="submit">
+                        ENVIAR
+                    </button>
+                </p>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="w3-center w3-light-gray w3-padding-32">
+        <p>Feito por <strong>João Marcos Landi Sousa</strong></p>
+    </footer>
+
+</body>
+</html>
