@@ -1,19 +1,15 @@
 # Título do projeto:  tiamelcoxinha
-Site Institucional da empresa para divulgação e localização no google
+Site Institucional basico e simples para divulgação e contato com a empresa.
 
 ## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte para saber como implantar o projeto.
+Essas instruções permitirão que você obtenha acesso uma cópia do projeto desenvolvido em HTML e CSS, passivel para realizar atualizações e manutenções futuras.
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
+Conhecimento em HTML e CSS, padrões de boas praticas seguir no site: https://www.w3schools.com/css/default.asp
++ Acesso a conta no GIT => https://github.com/DimersonBR/tiamelcoxinha.git
++ Acesso a conta na VECEL => https://tiamelcoxinha-ekbfcvmmg-dimersonbrs-projects.vercel.app
++ Acesso IDE ( Sugiro a instalação do VSCODE - Microfot), porque alem de possuir uma uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão de projetos e atualização de seu projeto.
 
 ### 🔧 Instalação
 
@@ -65,10 +61,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autor: 
 
-* **Desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-## 🎁 Expressões de gratidão
+* **Dimerson Ferreira** - *Trabalho FATEC* - https://github.com/DimersonBR/
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Gostou me convide para uma cerveja 🍺;
