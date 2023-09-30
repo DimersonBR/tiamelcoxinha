@@ -6,19 +6,25 @@
 /* #6e6b68 - Bordas e Cabelos
 
 /* Estilos globais */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-image: url("/img/fd_salgados.PNG"); /* imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento body */
+    background-size: 100%;
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
+    background-position: center;
 }
 
+/* Estilos Cabeçalho */
 header {
     background-color: #7c1b12;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ul {
@@ -26,7 +32,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+/* Estilos Margens Menu de opções */
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -38,25 +44,27 @@ nav ul li a {
 }
 
 section {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: white;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.096);  /*Usado RGB para incluir transparencia*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    padding: 250px;
 }
 
 footer {
     background-color: #7c1b12;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
     color: #f0f0f0;
     text-align: center;
-    padding: 2px;
+    padding: 5px;
 }
 
 /* Botão de estilo */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #7c1b12;
     color: white;
     text-decoration: none;
@@ -66,4 +74,11 @@ footer {
 
 .btn:hover {
     background-color: #d7a258;
+}
+
+/* styles.css */
+.logo {
+    float: left; /* Alinha a imagem à esquerda */    
+    max-width: 140px;
+    margin-right: 10px; /* Adicione margem à direita para separar o logotipo do título */
 }
