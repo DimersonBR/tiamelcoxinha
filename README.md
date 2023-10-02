@@ -7,57 +7,61 @@ Essas instruções permitirão que você obtenha acesso uma cópia do projeto de
 ### 📋 Pré-requisitos
 
 Conhecimento em HTML e CSS, padrões de boas praticas seguir no site: https://www.w3schools.com/css/default.asp
-+ Acesso a conta no GIT => https://github.com/DimersonBR/tiamelcoxinha.git
-+ Acesso a conta na VECEL => https://tiamelcoxinha-ekbfcvmmg-dimersonbrs-projects.vercel.app
-+ Acesso IDE ( Sugiro a instalação do VSCODE - Microsoft), porque possui uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão e atualização de seu projeto.
 
 ### 🔧 Instalação
 
 Seguir os passos abaixo para montar um ambiente produção pronto para edição do projeto, seguir os procedimentos  passo-a-passo: 
 
-Diga como essa etapa será:
-
+Realize a instalaçao do GIT:
+Basta acessar a página de instalação e seguir as orientações de instalação na página:
+```
+https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+```
+Após a instalação do GIT, acesse o caminho abaixo para ter acesso ao projeto:
 ```
 https://github.com/DimersonBR/tiamelcoxinha.git
 ```
+Baixe os arquivos deste projeto em uma pasta local: 
+Exemplo: C:\PROJETO\timelcoxinha
 
-E repita:
+Acesse a pasta onde copiou os arquivos e execute os seguintes commandos:
+Execute no caso de estiver usando o Windows com o botão do lado diretio a opção, conforme imagem abaixo:
+Em cima da pasta C:\PROJETO\
+
+![Exemplo Explorer](Caminho_configura%C3%A7%C3%A3o_GIT.jpeg)
+
+## ⚙️ Rodar uma única vez na máquina para configurar
+
+Rodar uma única vez na máquina para configurar
+```
+  git config --global user.email "you@example.com" (coloca o e-mail do seu usuário-git)
+  git config --global user.name "Your Name" (coloca o nome do seus usuário-git)
 
 ```
-Até finalizar
+
+Abaixo Rodar todas as vezes que precisar atualizar o projeto:
+=> Adicionar os arquivos alterados
 ```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
+git add .
 ```
-Dar exemplos
+=> Montar o pacote de atualização
 ```
-### ⌨️ E testes de estilo de codificação
-Explique que eles verificam esses testes e porquê.
-
+git commit -m "coloque nome Identificaque a alteração"
 ```
-Dar exemplos
+=> Subir a Atualização
 ```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+git push
+```
+Pronto após executar seus arquivos já estarão publicados em seu GIT.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+Ferramentas utilizadas neste projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) - sistema de controle de versões
+* [GITHUB](https://github.com/) plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git=> Exemplo: https://github.com/DimersonBR/tiamelcoxinha.git
+* [VECEL](https://maven.apache.org/) - Acesso a conta na VECEL (Redirecionamnento para dominio publico de forma gratuita) => Exemplo: https://tiamelcoxinha-ekbfcvmmg-dimersonbrs-projects.vercel.app
+* [VSCODE](https://rometools.github.io/rome/) - Acesso IDE ( Sugiro a instalação do VSCODE - Microsoft), porque possui uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão e atualização de seu projeto.
 
 ## ✒️ Autor: 
 
