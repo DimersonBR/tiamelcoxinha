@@ -13,12 +13,12 @@ Conhecimento em HTML e CSS, padrões de boas praticas seguir no site: https://ww
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Seguir os passos abaixo para montar um ambiente produção pronto para edição do projeto, seguir os procedimentos  passo-a-passo: 
 
 Diga como essa etapa será:
 
 ```
-Dar exemplos
+https://github.com/DimersonBR/tiamelcoxinha.git
 ```
 
 E repita:
