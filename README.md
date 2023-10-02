@@ -1,5 +1,5 @@
 # Título do projeto:  tiamelcoxinha
-Site Institucional basico e simples para divulgação e contato com a empresa.
+Site Institucional basico e simples para divulgação e contato na internet.
 
 ## 🚀 Começando
 Essas instruções permitirão que você obtenha acesso uma cópia do projeto desenvolvido em HTML e CSS, passivel para realizar atualizações e manutenções futuras.
@@ -9,7 +9,7 @@ Essas instruções permitirão que você obtenha acesso uma cópia do projeto de
 Conhecimento em HTML e CSS, padrões de boas praticas seguir no site: https://www.w3schools.com/css/default.asp
 + Acesso a conta no GIT => https://github.com/DimersonBR/tiamelcoxinha.git
 + Acesso a conta na VECEL => https://tiamelcoxinha-ekbfcvmmg-dimersonbrs-projects.vercel.app
-+ Acesso IDE ( Sugiro a instalação do VSCODE - Microfot), porque alem de possuir uma uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão de projetos e atualização de seu projeto.
++ Acesso IDE ( Sugiro a instalação do VSCODE - Microsoft), porque possui uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão e atualização de seu projeto.
 
 ### 🔧 Instalação
 
@@ -61,10 +61,5 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autor: 
 
-* **Dimerson Ferreira** - *Trabalho FATEC* - https://github.com/DimersonBR/
-
-* Conte a outras pessoas sobre este projeto 📢;
+* **Dimerson Ferreira** - *Trabalho em aula da FATEC* - https://github.com/DimersonBR/
 * Gostou me convide para uma cerveja 🍺;
-* Espero ter ajudado ;)
-
-

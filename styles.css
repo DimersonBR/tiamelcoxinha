@@ -46,11 +46,12 @@ nav ul li a {
 section {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 30px;
     background-color: rgba(255, 255, 255, 0.096);  /*Usado RGB para incluir transparencia*/
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1px rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    color: #f0f0f0;
     text-align: center;
-    padding: 250px;
+    padding: 200px;
 }
 
 footer {
